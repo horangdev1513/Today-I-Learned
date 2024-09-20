@@ -19,6 +19,6 @@
 - Container/Presentational Pattern
 - Render Props Pattern
 
-## 참고 & 출처
+## Reference
 
 - [Patterns.dev](https://www.patterns.dev/react/) - 디자인 패턴(react, js, vue)
