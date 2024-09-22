@@ -14,7 +14,7 @@
 지금까지 알아낸 패턴은 이정도고 추가적으로 알게 된 패턴이 있다면 추가하겠다.
 
 - Compound (Components) Pattern
-- HOC(High-Order-Components) Pattern
+- HOC(Higher-Order-Components) Pattern
 - (Custom)Hook Pattern
 - Container/Presentational Pattern
 - Render Props Pattern
