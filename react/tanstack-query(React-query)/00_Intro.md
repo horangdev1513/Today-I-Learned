@@ -36,6 +36,23 @@ Effects는 서버에서 실행되지 않으니 초기 상태는 데이터가 없
 
 npm-trends(과거 1년 다운로드 수 기준)을 보면 이미 Tanstack-query의 다운로드가 SWR을 넘었다. 대세는 swr보다 tanstack-query인 듯 싶다. swr은 실제로 사용해보진 않았지만 vercel에서 만들었으니 같은 출신 next와 궁합이 좋을 것 같다는 추측아닌 추측을 해본다. rtk-query는 이미 프로젝트에 redux(rtk)를 도입한 프로젝트에 사용하면 좋을 것 같다.
 
+## Tanstack-Query 란?
+
+tanstack-query 공식문서에서 소개하길
+
+> TanStack Query (FKA React Query) is often described as the missing data-fetching library for web applications, but in more technical terms, it makes fetching, caching, synchronizing and updating server state in your web applications a breeze.
+
+`서버 상태`를 업데이트하고 동기화하고 캐싱, 패칭하기 쉽게 해주는 라이브러리이다고 보는 것이 기술적 용어면에서 더 가깝다고 한다.
+
+## Server State(서버 상태)란?
+
+서버 상태는 말 그대로 서버에있는 데이터 혹은 Api로 fetched 된 데이터를 말한다.
+
+## 정리 & 요약
+
+useEffect로 데이터 패칭을 시도 하는 것은 잘못된 게 아니다. 하지만 여러 문제점이 존재한다. 이 문제점을 해결하기 위한 라이브러리 중 하나이면서 가장 많은 다운로드 수를 갖고 있는 것이 tanstack-query이다. tanstack-query는 서버 상태를 다루기 위한 라이브러리이다.
+
 ## Reference
 
-[React공식문서](https://react.dev/reference/react/useEffect#fetching-data-with-effects) - fetching data with effects
+[React공식문서](https://react.dev/reference/react/useEffect#fetching-data-with-effects) - fetching data with effects  
+[Tanstack-Query공식문서](https://tanstack.com/query/latest/docs/framework/react/overview#motivation) - Overview
